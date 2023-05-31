@@ -8,6 +8,8 @@ import { Loader } from "@react-three/drei";
 
 createRoot(document.getElementById("root")).render(
   <>
+    <Loader />
+
     <Canvas>
       <Physics
         broadphase="SAP"
@@ -16,7 +18,6 @@ createRoot(document.getElementById("root")).render(
         <Scene />
       </Physics>
     </Canvas>
-    <Loader />
 
     <div class="controls">
       <p>press w a s d to move</p>

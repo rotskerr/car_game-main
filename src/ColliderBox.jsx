@@ -1,5 +1,5 @@
 import { useBox } from "@react-three/cannon";
-
+import React from "react";
 const debug = false;
 
 export function ColliderBox({ position, scale }) {

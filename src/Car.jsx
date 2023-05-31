@@ -6,10 +6,9 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useControls } from "./useControls";
 import { useWheels } from "./useWheels";
 import { WheelDebug } from "./WheelDebug";
-
+import React from "react";
 export function Car({ thirdPerson }) {
-  // thanks to the_86_guy!
-  // https://sketchfab.com/3d-models/low-poly-car-muscle-car-2-ac23acdb0bd54ab38ea72008f3312861
+
   let result = useLoader(
     GLTFLoader,
     process.env.PUBLIC_URL + "/models/mariz08.glb"
@@ -80,10 +79,6 @@ export function Car({ thirdPerson }) {
         <primitive object={result} rotation-y={Math.PI} position={[0, -0.09, 0]}/>
       </group>
       
-      {/* <mesh ref={chassisBody}>
-        <meshBasicMaterial transparent={true} opacity={0.3} />
-        <boxGeometry args={chassisBodyArgs} />
-      </mesh> */}
 
       <WheelDebug wheelRef={wheels[0]} radius={wheelRadius} />
       <WheelDebug wheelRef={wheels[1]} radius={wheelRadius} />

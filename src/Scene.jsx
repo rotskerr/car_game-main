@@ -7,6 +7,7 @@ import {
   import { Car } from "./Car";
   import { Ground } from "./Ground";
   import { Track } from "./Track";
+  import React from "react";
   
   export function Scene() {
     const [thirdPerson, setThirdPerson] = useState(true);
@@ -28,7 +29,7 @@ import {
     return (
       <Suspense fallback={null}>
         <Environment
-          files={process.env.PUBLIC_URL + "/textures/envmap.hdr"}
+          files={process.env.PUBLIC_URL + "/textures/R.hdr"}
           background={"both"}
         />
   

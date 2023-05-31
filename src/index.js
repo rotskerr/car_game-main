@@ -4,6 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { Scene } from "./Scene";
 import { Physics } from "@react-three/cannon";
 import React from "react";
+import { Loader } from "@react-three/drei";
 
 createRoot(document.getElementById("root")).render(
   <>
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")).render(
         <Scene />
       </Physics>
     </Canvas>
+    <Loader />
 
     <div class="controls">
       <p>press w a s d to move</p>

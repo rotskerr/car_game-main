@@ -29,7 +29,7 @@ import {
     return (
       <Suspense fallback={null}>
         <Environment
-          files={process.env.PUBLIC_URL + "/textures/R.hdr"}
+          files={process.env.PUBLIC_URL + "/textures/envmap.hdr"}
           background={"both"}
         />
   

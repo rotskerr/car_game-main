@@ -1,8 +1,4 @@
-import React from 'react';
-
 const debug = false;
-
-
 
 export const WheelDebug = ({ radius, wheelRef }) => {
   return debug && (

@@ -42,7 +42,7 @@ export function Track() {
       <ColliderBox position={[-7.03, 0, -0.76]} scale={[0.3, 1, 0.3]}/>
       <ColliderBox position={[-4.75, 0, 2.73]} scale={[0.3, 1, 0.3]}/>
       <ColliderBox position={[-3.05, 0, 3.4]} scale={[0.3, 1, 0.3]}/>
-      <ColliderBox position={[-0.83, 0, 3.2]} scale={[0.3, 1, 0.3]} />
+      <ColliderBox position={[-0.83, 0, 3.2]} scale={[0.3, 1, 0.3]}/>
       
       <ColliderBox position={[-1.85,0,0.385]} scale={[0.05, 1, 0.13]}/>
       <ColliderBox position={[-1.85,0,-0.385]} scale={[0.05, 1, 0.13]}/>
@@ -64,6 +64,7 @@ export function Track() {
       <ColliderBox position={[-4.15,0,-0.67]} scale={[0.1, 0.5, 0.1]}/>
       <ColliderBox position={[-4.9,0,-0.58]} scale={[0.1, 0.5, 0.1]}/>
       <ColliderBox position={[-0.3,0,1]} scale={[0.1, 0.5, 0.1]}/>
+      <ColliderBox position={[0.15,0,0]} scale={[0.3, 0.6, 0.1]}/>
 
     </>
   );

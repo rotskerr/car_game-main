@@ -15,7 +15,7 @@ export function Car({ thirdPerson }) {
     process.env.PUBLIC_URL + "/models/mariz08.glb"
   ).scene;
 
-  const position = [5, 0.1, 3];
+  const position = [-1.5, 0.5, 5];
   const width = 0.15;
   const height = 0.07;
   const front = 0.15;
@@ -80,7 +80,10 @@ export function Car({ thirdPerson }) {
         <primitive object={result} rotation-y={Math.PI} position={[0, -0.09, 0]}/>
       </group>
       
-    
+      {/* <mesh ref={chassisBody}>
+        <meshBasicMaterial transparent={true} opacity={0.3} />
+        <boxGeometry args={chassisBodyArgs} />
+      </mesh> */}
 
       <WheelDebug wheelRef={wheels[0]} radius={wheelRadius} />
       <WheelDebug wheelRef={wheels[1]} radius={wheelRadius} />

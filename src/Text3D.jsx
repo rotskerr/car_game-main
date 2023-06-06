@@ -3,13 +3,13 @@ import { useGLTF } from '@react-three/drei';
 import { Physics } from '@react-three/cannon';
 
 function Text3D() {
-  const { scene } = useGLTF('/models/threejstext.glb'); // Замініть шлях на реальний
+  const { scene } = useGLTF('/models/1.glb'); // Замініть шлях на реальний
 
   return (
       <Physics>
         <group>
           <mesh>
-            <primitive object={scene} scale={0.05} />
+            <primitive object={scene} scale={0.03} />
           </mesh>
         </group>
       </Physics>

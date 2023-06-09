@@ -54,11 +54,13 @@ export function Ground() {
         ref={meshRef2}
         position={[-2.285, -0.01, -1.325]}
         rotation-x={-Math.PI * 0.5}
+        scale={10}
       >
         <planeGeometry args={[12, 12]} />
         <meshBasicMaterial
           opacity={0.325}
           alphaMap={gridMap}
+          
           transparent={true}
           color={"white"}
         />
@@ -70,7 +72,7 @@ export function Ground() {
         rotation-x={-Math.PI * 0.5}
         rotation-z={-0.079}
       >
-        <circleGeometry args={[6.12, 50]} />
+        <circleGeometry args={[600, 50]} />
         <MeshReflectorMaterial
           aoMap={aoMap}
           alphaMap={alphaMap}
@@ -78,7 +80,7 @@ export function Ground() {
           color={[0.5, 0.5, 0.5]}
           envMapIntensity={0.35}
           metalness={0.05}
-          roughness={0.4}
+          roughness={0.7}
 
           dithering={true}
           blur={[1024, 512]} // Blur ground reflections (width, heigt), 0 skips blur

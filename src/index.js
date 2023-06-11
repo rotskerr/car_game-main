@@ -14,14 +14,14 @@ createRoot(document.getElementById("root")).render(
       >
         <Scene />
       </Physics>
-      <Loader/>
     </Canvas>
+    <Loader/>
 
     <div class="controls">
       <p>press w a s d to move</p>
-      <p>press k to swap camera</p>
+
       <p>press r to reset</p>
-      <p>press arrows for flips</p>
+
     </div>
   </>
 );

@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Canvas } from "@react-three/fiber";
 import { Scene } from "./Scene";
 import { Physics } from "@react-three/cannon";
+import { Loader } from "@react-three/drei";
 
 createRoot(document.getElementById("root")).render(
   <>
@@ -13,6 +14,7 @@ createRoot(document.getElementById("root")).render(
       >
         <Scene />
       </Physics>
+      <Loader/>
     </Canvas>
 
     <div class="controls">

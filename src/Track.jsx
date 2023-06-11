@@ -17,7 +17,7 @@ export function Track() {
     );
 
   useEffect(() => {
-    colorMap.anisotropy = 16;
+    colorMap.anisotropy = 160;
   }, [colorMap]);
 
   let geometry = result.scene.children[0].geometry;
@@ -65,7 +65,60 @@ export function Track() {
       <ColliderBox position={[-4.9,0,-0.58]} scale={[0.1, 0.5, 0.1]}/>
       <ColliderBox position={[-0.3,0,1]} scale={[0.1, 0.5, 0.1]}/>
 
-      <ColliderBox position={[0.18,0,0]} scale={[0.4, 0.6, 0.1]}/>
+      <ColliderBox position={[9.28,0,-0.335]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-0.335]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-0.695]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-1.075]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-1.455]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-1.82]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-2.2]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-2.565]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-2.939]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-3.31]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-3.685]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-4.05]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-4.425]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.65,0,-4.79]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.28,0,-4.79]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[8.905,0,-4.79]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[8.535,0,-4.79]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[8.165,0,-4.79]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-4.79]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-4.425]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-4.05]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-3.685]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-3.31]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-2.939]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-2.565]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-2.2]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-1.82]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-1.455]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-1.075]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-0.695]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.79,0,-0.335]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[8.165,0,-0.335]} scale={[0.15, 2, 0.15]}/>
+
+      <ColliderBox position={[8,0,-0.655]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[8,0,-1.45]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[8,0,-2.215]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[8,0,-2.95]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[8,0,-3.7]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[7.983,0,-4.45]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[8.755,0,-4.51]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.41,0,-4.375]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.41,0,-3.665]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.41,0,-2.923]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.41,0,-2.185]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.41,0,-1.45]} scale={[0.15, 2, 0.15]}/>
+      <ColliderBox position={[9.41,0,-0.73]} scale={[0.15, 2, 0.15]}/>
+
+
+
+
+
+
+
+
 
     </>
   );

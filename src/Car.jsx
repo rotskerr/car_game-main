@@ -15,7 +15,7 @@ export function Car({ thirdPerson }) {
     process.env.PUBLIC_URL + "/models/mariz08.glb"
   ).scene;
 
-  const position = [-1.5, 0.5, 5];
+  const position = [3.5, 0.1, 10];
   const width = 0.15;
   const height = 0.07;
   const front = 0.15;

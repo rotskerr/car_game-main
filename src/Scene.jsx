@@ -7,7 +7,7 @@ import {
   import { Car } from "./Car";
   import { Ground } from "./Ground";
   import { Track } from "./Track";
-import Text3D from "./Text3D";
+import Museum from "./Museum";
   
   export function Scene() {
     const [thirdPerson, setThirdPerson] = useState(true);
@@ -41,7 +41,7 @@ import Text3D from "./Text3D";
         <Ground />
         <Track />
         <Car thirdPerson={thirdPerson} />
-        <Text3D />
+        <Museum />
       </Suspense>
     );
   }

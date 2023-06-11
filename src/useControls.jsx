@@ -49,11 +49,10 @@ export const useControls = (vehicleApi, chassisApi) => {
         vehicleApi.setSteeringValue(0, i);
       }
     }
-
   
 
     if (controls.r) {
-      chassisApi.position.set(-1.5, 0.5, 3);
+      chassisApi.position.set(3.5, 0.1, 10);
       chassisApi.velocity.set(0, 0, 0);
       chassisApi.angularVelocity.set(0, 0, 0);
       chassisApi.rotation.set(0, 0, 0);

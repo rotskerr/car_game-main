@@ -19,9 +19,7 @@ createRoot(document.getElementById("root")).render(
 
     <div class="controls">
       <p>press w a s d to move</p>
-
       <p>press r to reset</p>
-
     </div>
   </>
 );

@@ -8,6 +8,7 @@ import {
   import { Ground } from "./Ground";
   import { Track } from "./Track";
 import Museum from "./Museum";
+import Projects from "./Projects";
   
   export function Scene() {
     const [thirdPerson, setThirdPerson] = useState(true);
@@ -42,6 +43,7 @@ import Museum from "./Museum";
         <Track />
         <Car thirdPerson={thirdPerson} />
         <Museum />
+        <Projects/>
       </Suspense>
     );
   }
